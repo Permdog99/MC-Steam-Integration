@@ -51,8 +51,10 @@ dependencies {
     }
 
     minecraft("com.mojang:minecraft:$mcVersion")
-    mappings("net.fabricmc:yarn:$mcVersion+build.${deps["yarn_build"]}:v2")
+    mappings(loom.officialMojangMappings())
     modImplementation("net.fabricmc:fabric-loader:${deps["fabric_loader"]}")
+
+    implementation("com.code-disaster.steamworks4j:${deps["steamworks4j"]}")
 
     fapi(
         // Add modules from https://github.com/FabricMC/fabric

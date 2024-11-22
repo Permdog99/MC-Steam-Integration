@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.mixin.client",
+	"package": "permdog99.steam_integration.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+      "ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

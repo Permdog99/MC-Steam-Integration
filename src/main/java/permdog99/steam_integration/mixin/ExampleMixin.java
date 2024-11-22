@@ -1,4 +1,4 @@
-package com.example.mixin;
+package permdog99.steam_integration.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
