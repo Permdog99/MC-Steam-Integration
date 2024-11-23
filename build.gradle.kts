@@ -54,7 +54,8 @@ dependencies {
     mappings(loom.officialMojangMappings())
     modImplementation("net.fabricmc:fabric-loader:${deps["fabric_loader"]}")
 
-    implementation("com.code-disaster.steamworks4j:${deps["steamworks4j"]}")
+    implementation("com.code-disaster.steamworks4j:${deps["steamworks4j.client"]}")
+    implementation("com.code-disaster.steamworks4j:${deps["steamworks4j.server"]}")
 
     fapi(
         // Add modules from https://github.com/FabricMC/fabric

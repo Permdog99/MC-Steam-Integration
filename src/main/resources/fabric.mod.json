@@ -33,5 +33,10 @@
     "fabricloader": ">=0.15",
     "minecraft": "${mcdep}",
     "fabric-api": "*"
+  },
+  "breaks": {
+    "e4mc": "*",
+    "world_host": "*",
+    "essential": "*"
   }
 }
